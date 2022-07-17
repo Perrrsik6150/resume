@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    /* color: #696969; */
+    background: #FFE4E1;
+}
+.cart {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.sv{
+    border-width: 2px; 
+border-style: dashed;
+border-color: red; 
+}
