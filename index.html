@@ -10,20 +10,22 @@
     <link rel="stylesheet" href="iii.css">
 </head>
 <body></body>
+<div class="container">
 <div class="cart name">
+    <img class="img" src="Imgs/котАА.jpg" width="150" alt="тут котик">
     <h1><stronh>Анастасия Малышева</stronh></h1>
-    <img src="Imgs/котАА.jpg" width="150" alt="тут котик">
+    
 </div>    
     <hr>
-    <div class="cart 2">
+    <div class="cart info">
     <p>Я студентка Ярославкого промышленно-экономического колледжа. 
         Учусь на техническом отделении по специальности <em>"Информационные системы и технологии"</em></p>
     <p>В качестве достижений имею: <strong>1500 часов игры в доте и 100 часов игры в ведьмаке!!!!!!!!!!1</strong></p>
     <p>Скромная, пунктуальная)</p>
     </div>
 
-    <div class="cart 3">
-    <h4>Хобби и увлечения</h4>
+    <div class="cart xobbi">
+    <h3>Хобби и увлечения</h3>
     <ul>
         <li>Программирование
             <ul>
@@ -37,34 +39,35 @@
     </ul>
 </div>
 
-<div class="cart 4">
-    <h4>Образование</h4>
+<div class="cart ob">
+    <h3>Образование</h3>
 
-    <table width="1000">
+    <table class="table">
         <thead>
         <tr>
-            <th>Уровень</th>
-            <th>Образовательное учереждение</th>
-            <th>Год</th>
+            <th width="200" >Уровень</th>
+            <th width="280">Образовательное учереждение</th>
+            <th width="200">Годы обучения</th>
         </tr>
         </thead>
+
         <tbody>
         <tr>
-            <th>Среднее общее</th>
-            <th>Ярославская общеобразовательная школа №68</th>
-            <th>2010-2019</th>
+            <td>Среднее общее</td>
+            <td>Общеобразовательная школа №68</td>
+            <td>2010-2019</td>
         </tr>
         <tr>
-            <th>Начальное профессиональное образование</th>
-            <th>Промышленно-экономический колледж им. Пастухова</th>
-            <th>2019-2023</th>
+            <td>Начальное профессиональное образование</td>
+            <td>Промышленно-экономический колледж им. Пастухова</td>
+            <td>2019-2023</td>
         </tr>
         </tbody>
     </table>
     </div>
 
-    <div class="cart 5" >
-    <h4>Мои соц.сети</h4>
+    <div class="cart vk" >
+    <h3>Мои соц.сети</h3>
     <a href="https://steamcommunity.com/profiles/76561198804893215">Стим</a>
     <a>|</a>
     <a href="https://vk.com/pinilina">Вконтакте</a>
@@ -72,27 +75,29 @@
 
 <div class="cart sv">
     
-    <h4>Связаться со мной</h4>
-    <form>
-        <div>
+    
+    <form class="form">
+        <h3>Связаться со мной</h3>
+    <div class="form-row">
+        <div class="form-group">
             <label for="name">Имя</label>
             <input type="text" id="name"placeholder="Введите имя">
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="email">Email</label>
             <input type="email" id="email" placeholder="Введите email">
         </div>
-
+     </div>
         <div>
             <label for="message">Сообщение</label>
-            <br>
             <textarea type="message" id="message" placeholder="Введите ваше сообщение..." cols="25" row="5"></textarea>
         </div>
 
-        <button type="sumbit">Отправить</button>
+        <button type="sumbit" class="btn">Отправить</button>
     </form>
     
     </div>
+</div>
 </body>
 </html>
